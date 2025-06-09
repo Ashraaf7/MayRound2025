@@ -1,7 +1,6 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,62 +10,70 @@ import java.time.Duration;
 
 public class Waits {
 
-    WebDriver driver;  //CTRL+ALT+L
+    WebDriver driver;
+    By startButton = By.tagName("button");
+    By msg = By.cssSelector("#finish > h4");
+    WebDriverWait wait;
 
-    //TestNG
     @Test
     public void implicitWait() {
         driver = new EdgeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //implicit wait
-        driver.get("https://www.google.com/");
-        driver.quit();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); //implicit wait
+        driver.get("https://the-internet.herokuapp.com/dynamic_loading/1"); //Empty Text
+        driver.findElement(startButton).click();
+        String message = driver.findElement(msg).getText();
+        System.out.println(message);
     }
 
-    // Empty Text
     @Test
-    public void explicitWait() {
+    public void explicitWaitUsingExpectedConditions() {
         driver = new EdgeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
-        driver.findElement(By.tagName("button")).click();
-        boolean flag = driver.findElement(By.cssSelector("#finish >h4")).isDisplayed();
-        System.out.println(flag);
-        new WebDriverWait(driver, Duration.ofSeconds(20))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#finish >h4")));
-        String msg = driver.findElement(By.cssSelector("#finish >h4")).getText();
-        System.out.println(msg);
-    }
-
-    //NoSuchElementException
-    @Test
-    public void explicitWait2() {
-        driver = new EdgeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/dynamic_loading/2");
-        driver.findElement(By.tagName("button")).click();
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(d -> d.findElement(By.cssSelector("#finish >h4")).isDisplayed());
-        String msg = driver.findElement(By.cssSelector("#finish >h4")).getText();
-        System.out.println(msg);
+        wait.until(ExpectedConditions.and(ExpectedConditions.visibilityOfElementLocated(startButton), ExpectedConditions.elementToBeClickable(startButton))); //loop
+        driver.findElement(startButton).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(msg)); //loop
+        String message = driver.findElement(msg).getText();
+        System.out.println(message);
     }
 
-    //NoSuchElementException
+    @Test
+    public void explicitWaitUsingLambda() {
+        driver = new EdgeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        driver.manage().window().maximize();
+        driver.get("https://the-internet.herokuapp.com/dynamic_loading/2");
+        wait.until(d ->
+                {
+                    WebElement element = driver.findElement(startButton);
+                    return element.isDisplayed() && element.isEnabled();
+                }
+        );
+        driver.findElement(startButton).click();
+        wait.until(d -> driver.findElement(msg).isDisplayed()); //loop
+        String message = driver.findElement(msg).getText();
+        System.out.println(message);
+    }
+
     @Test
     public void fluentWait() {
-        driver = new EdgeDriver();
+        EdgeOptions edgeOptions = new EdgeOptions();
+        edgeOptions.setPageLoadStrategy(PageLoadStrategy.NONE); // don't wait for page load
+        driver = new EdgeDriver(edgeOptions);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/dynamic_loading/2");
-        driver.findElement(By.tagName("button")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(startButton)); //clickable = present + visible
+        driver.findElement(startButton).click();
         new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(10))
-                .pollingEvery(Duration.ofMillis(100L))
-                .withMessage("element is not visible")
+                .withTimeout(Duration.ofSeconds(5))
+                .pollingEvery(Duration.ofMillis(300L))
+                .withMessage("element is not visible, locator " + msg.toString())
                 .ignoring(NoSuchElementException.class)
-                .until(d -> d.findElement(By.cssSelector("#finish >h4")).isDisplayed());
-        String msg = driver.findElement(By.cssSelector("#finish >h4")).getText();
-        System.out.println(msg);
+                .until(d -> driver.findElement(msg).isDisplayed());
+        String message = driver.findElement(msg).getText();
+        System.out.println(message);
     }
-
-
 }

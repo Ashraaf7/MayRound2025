@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization">
+    
+    <test name="Param Test">
+        <parameter name="username" value="tomsmith"/>
+        <parameter name="password" value="SuperSecretPassword!"/>
+        <classes>
+            <class name="Parameter"/>
+        </classes>
+    </test>
+</suite>

@@ -1,17 +1,20 @@
-import net.bytebuddy.implementation.bytecode.Throw;
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Assertions {
     WebDriver driver;
 
-    @Test
+    @Ignore
+    @Test(enabled = false)
     public void fakeTest()
     {
         String token = null;

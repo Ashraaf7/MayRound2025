@@ -1,20 +1,20 @@
 import CustomListeners.TestNGListeners;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
-@Test
-public class Dependency {
+@Listeners(TestNGListeners.class)
+@Test(groups = "LoginFeature")
+public class Retry {
     WebDriver driver;
 
 
-    @BeforeClass
+    @BeforeMethod(alwaysRun = true)
     public void setup()
     {
         driver = new EdgeDriver();
@@ -22,28 +22,18 @@ public class Dependency {
         driver.get("https://the-internet.herokuapp.com/login");
     }
 
-    @Test()
-    public void loginTC()
+    @Test(groups = {"valid","smoke"},retryAnalyzer = TestNGListeners.class)
+    public void validLoginTC()
     {
         driver.findElement(By.id("username")).sendKeys("tomsmith");
         driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
         driver.findElement(By.className("radius")).click();
         Assert.assertFalse(driver.findElement(By.id("flash")).isDisplayed(), "Login message is not appeared!");
-
     }
 
-    @Test(dependsOnMethods = "loginTC")
-    public void logoutTC()
-    {
-        driver.findElement(By.cssSelector(".example > a")).click();
-        String actualMsg = driver.findElement(By.id("flash")).getText();
-        Assert.assertTrue(actualMsg.contains("You logged out of the secure area!"),"Logout message is not correct!");
-    }
-
-    @AfterClass
+    @AfterMethod(alwaysRun = true)
     public void tearDown()
     {
         driver.quit();
-
     }
 }

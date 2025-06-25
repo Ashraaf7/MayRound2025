@@ -29,5 +29,14 @@
             <version>7.11.0</version>
             <scope>compile</scope>
         </dependency>
+        <!-- ... -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.2</version> <!-- can be omitted when using the BOM -->
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 </project>

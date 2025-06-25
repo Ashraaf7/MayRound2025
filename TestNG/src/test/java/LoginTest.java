@@ -1,9 +1,11 @@
+import CustomListeners.TestNGListeners;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+@Listeners(TestNGListeners.class)
 @Test(groups = "LoginFeature")
 public class LoginTest {
     WebDriver driver;

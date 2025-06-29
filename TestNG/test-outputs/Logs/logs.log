@@ -1,0 +1,19 @@
+[DEBUG] - [29-06-2025 19:50:19] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [29-06-2025 19:50:20] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [29-06-2025 19:50:20] [main] [LogUtils] - setup method is running
+[DEBUG] - [29-06-2025 19:50:25] [main] [LogUtils] - Page Navigated to Login Page
+[INFO] - [29-06-2025 19:50:25] [main] [LogUtils] - Username Entered
+[INFO] - [29-06-2025 19:50:25] [main] [LogUtils] - Password Entered
+[INFO] - [29-06-2025 19:50:25] [main] [LogUtils] - Login Button Clicked
+
+[DEBUG] - [29-06-2025 19:58:30] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [29-06-2025 19:58:30] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [29-06-2025 19:58:30] [main] [LoginTest] - setup method is running
+[DEBUG] - [29-06-2025 19:58:35] [main] [LoginTest] - Page Navigated to Login Page
+[INFO] - [29-06-2025 19:58:35] [main] [LoginTest] - Username Entered
+[INFO] - [29-06-2025 19:58:35] [main] [LoginTest] - Password Entered
+[INFO] - [29-06-2025 19:58:36] [main] [LoginTest] - Login Button Clicked

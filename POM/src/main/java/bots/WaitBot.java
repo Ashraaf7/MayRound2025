@@ -18,6 +18,7 @@ public class WaitBot {
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofMillis(100))
                 .ignoreAll(getExceptions());
+        
     }
 
 

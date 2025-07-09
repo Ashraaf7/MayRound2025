@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
+import static utils.PropertyReader.getProperty;
+
 public class LoginTest {
     //variables
     WebDriver driver;
@@ -16,14 +18,14 @@ public class LoginTest {
     @Test
     public void validLoginTest() {
         new LoginPage(driver).
-                login("standard_user", "secret_sauce")
+                login(getProperty("validUsername"), getProperty("validPassword"))
                 .isLoggedIn("https://www.saucedemo.com/v1/inventory.html");
     }
 
     @Test
     public void inValidLoginTest() {
         new LoginPage(driver).
-                login("admin", "secret_sauce")
+                login(getProperty("invalidUsername"), getProperty("invalidPassword"))
                 .isLoggedIn("https://www.saucedemo.com/v1/inventory.html");
     }
 
@@ -31,8 +33,8 @@ public class LoginTest {
     //Configuration
     @BeforeMethod
     public void setUp() {
-        driver = WebDriverFactory.initDriver("edge");
-        driver.get("https://www.saucedemo.com/v1/index.html");
+        driver = WebDriverFactory.initDriver();
+        driver.get(getProperty("baseUrl"));
     }
 
     @AfterMethod

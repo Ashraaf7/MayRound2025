@@ -1,7 +1,10 @@
 package CustomListeners;
 
+import drivers.WebDriverFactory;
 import org.testng.*;
+import utils.AllureUtils;
 import utils.PropertyReader;
+import utils.ScreenShotUtils;
 
 public class TestNGListeners implements IInvokedMethodListener, ITestListener, IExecutionListener {
 
@@ -12,8 +15,10 @@ public class TestNGListeners implements IInvokedMethodListener, ITestListener, I
     }
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-        if (method.isTestMethod())
+        if (method.isTestMethod()) {
+            ScreenShotUtils.takeScreenshot(WebDriverFactory.get(), testResult.getName());
             System.out.println(method.getTestMethod().getMethodName() + " finished");
+        }
     }
 
     public void onTestSuccess(ITestResult result) {
@@ -22,6 +27,7 @@ public class TestNGListeners implements IInvokedMethodListener, ITestListener, I
 
     public void onTestFailure(ITestResult result) {
         System.out.println(result.getMethod().getMethodName() + " failed");
+
     }
 
     public void onTestSkipped(ITestResult result) {
@@ -31,10 +37,12 @@ public class TestNGListeners implements IInvokedMethodListener, ITestListener, I
     public void onExecutionStart() {
         System.out.println("Execution started");
         PropertyReader.loadProperties();
+        AllureUtils.cleanAllureResults();
     }
 
     public void onExecutionFinish() {
         System.out.println("Execution finished");
+        AllureUtils.setAllureEnvironment();
     }
 
 }

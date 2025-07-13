@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1906","inValidLoginTest","Default Suite","Sun Jul 13 21:34:42 EEST 2025","failed","Sun Jul 13 21:34:43 EEST 2025","tests.webportal.login.LoginTest","POM","tests.webportal.login.LoginTest","inValidLoginTest"
+"verify that the user is redirected to home page after providing correct credentials","1952","Valid Login","Default Suite","Sun Jul 13 21:34:48 EEST 2025","passed","Sun Jul 13 21:34:50 EEST 2025","tests.webportal.login.LoginTest","POM","tests.webportal.login.LoginTest","validLoginTest"

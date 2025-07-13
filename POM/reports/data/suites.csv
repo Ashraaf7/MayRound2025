@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1480","validLoginTest","Default Suite","Sun Jul 13 19:25:12 EEST 2025","passed","Sun Jul 13 19:25:14 EEST 2025","tests.webportal.login.LoginTest","POM","tests.webportal.login.LoginTest","validLoginTest"

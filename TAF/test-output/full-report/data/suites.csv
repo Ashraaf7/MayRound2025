@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11688","validSignUpTC","Default Suite","Wed Jul 23 21:51:53 EEST 2025","passed","Wed Jul 23 21:52:04 EEST 2025","com.automationexercices.tests.RegisterTest","TAF","com.automationexercices.tests.RegisterTest","validSignUpTC"

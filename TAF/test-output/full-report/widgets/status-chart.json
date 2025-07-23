@@ -1,1 +1,1 @@
-[{"uid":"4fdae1033a001c4b","name":"validSignUpTC","time":{"start":1753296713104,"stop":1753296724792,"duration":11688},"status":"passed","severity":"normal"}]
+[{"uid":"f7ba31b0bdef2e0d","name":"invalidSignUpTC","time":{"start":1753314106929,"stop":1753314108011,"duration":1082},"status":"passed","severity":"normal"}]

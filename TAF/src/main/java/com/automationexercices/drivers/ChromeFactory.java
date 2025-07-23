@@ -20,9 +20,10 @@ public class ChromeFactory extends AbstractDriver {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
-        options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized");
-        options.addExtensions(new File(extensionPath));
+       // options.addArguments("--disable-gpu");
+       // options.addArguments("--disable-extensions");
+        options.addExtensions(extensions);
         if (PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") ||
                 PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
             options.addArguments("--headless");

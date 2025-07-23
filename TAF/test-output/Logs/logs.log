@@ -535,3 +535,1128 @@
 [INFO] - [23-07-2025 21:52:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case validSignUpTC passed
 [INFO] - [23-07-2025 21:52:20] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_09-52-20.html".
 [INFO] - [23-07-2025 21:52:21] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:22:00] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:22:03] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:22:04] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:22:07] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:22:07] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:22:07] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:22:08] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:22:08] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:22:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:22:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case validSignUpTC started
+[INFO] - [23-07-2025 22:22:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[DEBUG] - [23-07-2025 22:22:55] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [23-07-2025 22:23:13] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Test' into element: By.cssSelector: [data-qa="signup-name"]
+[DEBUG] - [23-07-2025 22:23:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [23-07-2025 22:23:14] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'automationtest_1753298593892@gmail.com' into element: By.cssSelector: [data-qa="signup-email"]
+[INFO] - [23-07-2025 22:23:14] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="signup-button"]
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [23-07-2025 22:23:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [23-07-2025 22:23:16] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //input [@value='Mr']
+[INFO] - [23-07-2025 22:23:17] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'P@ssw0rd' into element: By.id: password
+[INFO] - [23-07-2025 22:23:18] [main] [com.automationexercices.utils.actions.ElementActions] - Selected value '1' from dropdown: By.id: days
+[INFO] - [23-07-2025 22:23:18] [main] [com.automationexercices.utils.actions.ElementActions] - Selected value 'January' from dropdown: By.id: months
+[INFO] - [23-07-2025 22:23:18] [main] [com.automationexercices.utils.actions.ElementActions] - Selected value '2000' from dropdown: By.id: years
+[INFO] - [23-07-2025 22:23:19] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] - [23-07-2025 22:23:19] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] - [23-07-2025 22:23:19] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Firstname' into element: By.id: first_name
+[INFO] - [23-07-2025 22:23:19] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Lastname' into element: By.id: last_name
+[INFO] - [23-07-2025 22:23:20] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Company' into element: By.id: company
+[INFO] - [23-07-2025 22:23:20] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Address1' into element: By.id: address1
+[INFO] - [23-07-2025 22:23:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_Address2' into element: By.id: address2
+[INFO] - [23-07-2025 22:23:21] [main] [com.automationexercices.utils.actions.ElementActions] - Selected value 'India' from dropdown: By.id: country
+[INFO] - [23-07-2025 22:23:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_State' into element: By.id: state
+[INFO] - [23-07-2025 22:23:22] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation_City' into element: By.id: city
+[INFO] - [23-07-2025 22:23:22] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '12345' into element: By.id: zipcode
+[INFO] - [23-07-2025 22:23:22] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '1234567890' into element: By.id: mobile_number
+[INFO] - [23-07-2025 22:23:24] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="create-account"]
+[INFO] - [23-07-2025 22:23:25] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:23:25] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case validSignUpTC passed
+[INFO] - [23-07-2025 22:23:44] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-23-44.html".
+[INFO] - [23-07-2025 22:23:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:24:23] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:24:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:24:25] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:24:28] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:24:28] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:24:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:24:28] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:24:29] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:24:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:24:49] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:25:06] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:25:06] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [23-07-2025 22:25:36] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:25:37] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:25:38] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:25:41] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:25:41] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:25:41] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:25:41] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:25:41] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:25:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:26:00] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:26:23] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:26:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 22:26:53] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-26-53.html".
+[INFO] - [23-07-2025 22:26:55] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:34:16] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:34:18] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:34:21] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:34:21] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:34:21] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:34:21] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:34:21] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:34:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:34:41] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:34:50] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:34:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 22:35:20] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-35-20.html".
+[INFO] - [23-07-2025 22:35:21] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:36:01] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:36:02] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:36:03] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:36:05] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:36:05] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:36:06] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:36:06] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:36:06] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:36:21] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:36:22] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:36:23] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:36:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 22:37:09] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-37-09.html".
+[INFO] - [23-07-2025 22:37:10] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:37:37] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:37:38] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:37:39] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:37:41] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:37:41] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:37:42] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:37:42] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:37:42] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:37:58] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:37:59] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:38:00] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:38:00] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 22:38:31] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-38-31.html".
+[INFO] - [23-07-2025 22:38:33] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 22:39:26] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:39:28] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:39:31] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:39:31] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:39:31] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:39:32] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:39:32] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:39:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:39:48] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:39:49] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:39:49] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [23-07-2025 22:40:48] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 22:40:49] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 22:40:50] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 22:40:52] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 22:40:52] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 22:40:53] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 22:40:53] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 22:40:53] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 22:41:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 22:41:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 22:41:27] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 22:41:27] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 22:42:18] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_10-42-18.html".
+[INFO] - [23-07-2025 22:42:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:04:15] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:04:17] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:04:18] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:04:20] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:04:20] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:04:21] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:04:21] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:04:21] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:04:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:04:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:04:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:04:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:04:35] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:04:37] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:04:54] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:04:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [23-07-2025 23:05:49] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:05:50] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:05:51] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:05:53] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:05:53] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:05:53] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:05:54] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:05:54] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:06:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:06:14] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:06:18] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:06:37] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:06:37] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [23-07-2025 23:08:38] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:08:39] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:08:40] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:08:42] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:08:42] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:08:43] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:08:43] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:08:43] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:08:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:08:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:08:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:08:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:08:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:08:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:09:30] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:10:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:10:05] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:10:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 23:10:17] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-10-17.html".
+[INFO] - [23-07-2025 23:10:18] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:19:11] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:19:13] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:19:14] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:19:23] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:19:23] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:19:24] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:19:24] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:19:24] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:19:36] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:36] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:36] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:19:39] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[ERROR] - [23-07-2025 23:19:39] [main] [com.automationexercices.media.ScreenshotsManager] - Failed to Capture Screenshot no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=138.0.3351.95)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b78c78404ee9692fd9554e3300e0d8fd, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64252}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hussi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64252/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b78c78404ee9692fd9554e3300e0d8fd
+[INFO] - [23-07-2025 23:19:39] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[DEBUG] - [23-07-2025 23:21:44] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:21:46] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:21:50] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:21:50] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:21:51] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:21:51] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:21:51] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:22:21] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:22:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:22:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:22:40] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:22:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [23-07-2025 23:23:11] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-23-11.html".
+[INFO] - [23-07-2025 23:23:14] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:26:35] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:26:36] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:26:37] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:26:39] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:26:39] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:26:39] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:26:39] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:26:39] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:26:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:26:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:26:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:26:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:26:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:27:02] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:27:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:27:07] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:27:07] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [23-07-2025 23:31:10] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:31:13] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:31:16] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:31:16] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:31:17] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:31:17] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:31:17] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:31:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:34] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:34] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:34] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:34] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:35] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:36] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:38] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:38] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:38] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:31:46] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [23-07-2025 23:31:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:32:00] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:32:01] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [23-07-2025 23:32:21] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-32-21.html".
+[INFO] - [23-07-2025 23:32:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:33:22] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:33:23] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:33:24] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:33:27] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:33:27] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:33:27] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:33:28] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:33:28] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:33:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:33:52] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[ERROR] - [23-07-2025 23:33:52] [main] [com.automationexercices.media.ScreenshotsManager] - Failed to Capture Screenshot no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=138.0.3351.95)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [928bb2d050af097ad71bf3c71d00882e, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65261}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hussi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65261/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 928bb2d050af097ad71bf3c71d00882e
+[INFO] - [23-07-2025 23:33:52] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [23-07-2025 23:34:18] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-34-17.html".
+[INFO] - [23-07-2025 23:34:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:36:28] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:36:30] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:36:33] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:36:33] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:36:34] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:36:34] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:36:34] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:36:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:36:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[ERROR] - [23-07-2025 23:36:50] [main] [com.automationexercices.media.ScreenshotsManager] - Failed to Capture Screenshot no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=138.0.3351.95)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ac78fd321bcd61f2ca4c3fa82dcade08, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65406}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hussi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65406/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac78fd321bcd61f2ca4c3fa82dcade08
+[INFO] - [23-07-2025 23:36:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [23-07-2025 23:37:22] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-37-22.html".
+[INFO] - [23-07-2025 23:37:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:38:37] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:38:39] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:38:40] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:38:49] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:38:49] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:38:49] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:38:49] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:38:49] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:39:02] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:39:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:39:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:39:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[ERROR] - [23-07-2025 23:39:05] [main] [com.automationexercices.media.ScreenshotsManager] - Failed to Capture Screenshot no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=138.0.3351.95)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4cacaff08d27a66ad8e8fd9ee79c4e8d, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65514}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hussi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65514/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cacaff08d27a66ad8e8fd9ee79c4e8d
+[INFO] - [23-07-2025 23:39:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [23-07-2025 23:39:37] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-39-37.html".
+[INFO] - [23-07-2025 23:39:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [23-07-2025 23:41:29] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:41:31] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:41:32] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:41:34] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:41:34] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:41:35] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:41:35] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:41:35] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:41:49] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:50] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:50] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:50] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:51] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:53] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:54] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:54] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:54] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:54] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:57] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:57] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:58] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:58] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:58] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:41:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:42:01] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:42:22] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:42:22] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[DEBUG] - [23-07-2025 23:43:05] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [23-07-2025 23:43:07] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [23-07-2025 23:43:08] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [23-07-2025 23:43:10] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [23-07-2025 23:43:10] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [23-07-2025 23:43:11] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [23-07-2025 23:43:11] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [23-07-2025 23:43:11] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [23-07-2025 23:43:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:41] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:41] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:41] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:41] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:41] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:42] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:42] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:43] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:43] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:43] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:43] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:44] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:44] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:44] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:44] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:44] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:47] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [23-07-2025 23:43:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [23-07-2025 23:44:00] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [23-07-2025 23:44:03] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [23-07-2025 23:44:39] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-23_11-44-39.html".
+[INFO] - [23-07-2025 23:44:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:10:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:10:47] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:10:49] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:10:49] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:10:49] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:10:49] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:10:49] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:10:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:10:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:10:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:11:00] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:11:32] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:11:33] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:11:34] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:11:34] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[DEBUG] - [24-07-2025 00:12:35] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:12:37] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:12:40] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:12:40] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:12:41] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:12:41] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:12:41] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:12:54] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:56] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:12:59] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:13:14] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:13:15] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:13:15] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:13:36] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-13-36.html".
+[INFO] - [24-07-2025 00:13:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:16:44] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:16:46] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:16:47] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:16:50] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:16:50] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:16:50] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:16:50] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:16:50] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:04] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:04] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:04] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:04] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:04] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:05] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:05] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:05] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:05] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:07] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:08] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:10] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:10] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:10] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:10] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:10] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:12] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:13] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:17:14] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:17:25] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:17:25] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[DEBUG] - [24-07-2025 00:18:10] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:18:12] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:18:14] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:18:14] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:18:15] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:18:15] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:18:15] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:18:22] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:18:22] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:18:22] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:18:22] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:18:28] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:18:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:18:58] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:18:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:19:18] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-19-18.html".
+[INFO] - [24-07-2025 00:19:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:22:18] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:22:20] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:22:23] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:22:23] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:22:23] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:22:23] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:22:23] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:22:30] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:22:30] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:22:31] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:22:31] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:22:43] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:22:43] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:22:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [24-07-2025 00:22:49] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:22:50] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:22:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:23:12] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-23-12.html".
+[INFO] - [24-07-2025 00:23:17] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:24:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:24:14] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:24:14] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:24:14] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:24:14] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:24:14] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:24:15] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:24:15] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:24:15] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:24:17] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:24:17] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:24:18] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:24:18] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:24:18] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:24:32] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:24:33] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:24:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:24:41] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:24:45] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [24-07-2025 00:24:52] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:24:53] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:24:53] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:25:16] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-25-16.html".
+[INFO] - [24-07-2025 00:25:18] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:30:28] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:30:29] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:30:30] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:30:32] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:30:32] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:30:33] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:30:33] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:30:33] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:30:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:30:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:30:39] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:30:42] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:30:43] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:30:46] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [24-07-2025 00:30:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:30:50] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:30:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:31:20] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-31-20.html".
+[INFO] - [24-07-2025 00:31:22] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:31:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:31:47] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:31:50] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:31:50] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:31:50] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:31:51] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:31:51] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:31:57] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:32:00] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:32:01] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:32:05] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:32:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[DEBUG] - [24-07-2025 00:32:48] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:32:50] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:32:51] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:32:53] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:32:53] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:32:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:32:54] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:32:54] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:33:00] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:00] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:00] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:01] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:01] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:01] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:33:05] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:33:08] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:33:10] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:33:10] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:33:39] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-33-39.html".
+[INFO] - [24-07-2025 00:33:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:35:03] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:35:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:35:05] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:35:07] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:35:07] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:35:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:35:08] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:35:08] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:35:16] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:35:16] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:35:16] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:35:17] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:35:17] [main] [com.automationexercices.utils.actions.BrowserActions] - Waiting for ad tab to open
+[INFO] - [24-07-2025 00:35:25] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 00:35:28] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:35:29] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:35:29] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:35:50] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-35-50.html".
+[INFO] - [24-07-2025 00:35:52] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:43:16] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:43:18] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:43:19] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:43:22] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:43:22] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:43:23] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:43:23] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:43:23] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:43:37] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:43:38] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:43:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 00:43:59] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-43-59.html".
+[INFO] - [24-07-2025 00:44:00] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 00:49:08] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:49:10] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:49:11] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:49:14] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:49:14] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:49:15] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:49:15] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:49:15] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:49:39] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:49:40] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:49:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[DEBUG] - [24-07-2025 00:52:06] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 00:52:08] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 00:52:11] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 00:52:11] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 00:52:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 00:52:12] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 00:52:12] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 00:52:52] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 00:52:53] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 00:52:53] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC skipped
+[INFO] - [24-07-2025 00:53:46] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_12-53-46.html".
+[INFO] - [24-07-2025 00:53:48] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 01:53:47] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 01:53:48] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 01:53:48] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 01:53:48] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 01:53:48] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 01:53:48] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 01:53:49] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 01:53:49] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 01:53:49] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 01:53:52] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 01:53:52] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 01:53:52] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 01:53:52] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 01:53:52] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 01:54:18] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 01:54:21] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 01:54:22] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 01:54:22] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 01:54:36] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_01-54-36.html".
+[INFO] - [24-07-2025 01:54:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 02:17:58] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 02:18:00] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 02:18:00] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 02:18:00] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 02:18:00] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 02:18:00] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 02:18:01] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 02:18:01] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 02:18:01] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 02:18:03] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 02:18:03] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 02:18:03] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 02:18:03] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 02:18:03] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 02:18:29] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 02:18:30] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 02:18:31] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 02:18:31] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 02:18:48] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_02-18-48.html".
+[INFO] - [24-07-2025 02:18:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 02:23:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 02:23:15] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 02:23:16] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 02:23:19] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 02:23:19] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 02:23:19] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 02:23:19] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 02:23:19] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 02:23:26] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 02:23:29] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 02:23:31] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 02:23:31] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 02:23:51] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_02-23-51.html".
+[INFO] - [24-07-2025 02:23:52] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 02:28:06] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 02:28:08] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 02:28:09] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 02:28:12] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 02:28:12] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 02:28:13] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 02:28:13] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 02:28:13] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 02:28:20] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 02:28:21] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 02:28:23] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 02:28:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 02:28:45] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_02-28-45.html".
+[INFO] - [24-07-2025 02:28:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 02:34:22] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 02:34:24] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 02:34:27] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 02:34:27] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 02:34:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 02:34:28] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 02:34:28] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 02:34:49] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 02:34:51] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 02:34:55] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 02:34:55] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 02:35:18] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_02-35-18.html".
+[INFO] - [24-07-2025 02:35:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [24-07-2025 02:41:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [24-07-2025 02:41:09] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [24-07-2025 02:41:10] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [24-07-2025 02:41:13] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [24-07-2025 02:41:13] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [24-07-2025 02:41:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hussi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [24-07-2025 02:41:14] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [24-07-2025 02:41:14] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [24-07-2025 02:41:46] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [24-07-2025 02:41:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC started
+[INFO] - [24-07-2025 02:41:47] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [24-07-2025 02:41:48] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case invalidSignUpTC passed
+[INFO] - [24-07-2025 02:42:18] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\hussi\Desktop\MayRound2025\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-07-24_02-42-18.html".
+[INFO] - [24-07-2025 02:42:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Finished

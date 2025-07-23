@@ -19,9 +19,10 @@ public class EdgeFactory extends AbstractDriver {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
-        options.addArguments("--disable-gpu");
+        // options.addArguments("--disable-gpu"); //due to extension issues
+        // options.addArguments("--disable-extensions"); //due to extension issues
+        options.addExtensions(extensions);
         options.addArguments("--start-maximized");
-       // options.addExtensions(new File(extensionPath));
 
         options.setAcceptInsecureCerts(true);
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
@@ -35,23 +36,19 @@ public class EdgeFactory extends AbstractDriver {
     @Override
     public WebDriver createDriver() {
         if (PropertyReader.getProperty("executionType").equalsIgnoreCase("Local") ||
-                PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") )
-        {
+                PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless")) {
             return new EdgeDriver(getOptions());
-        }
-        else if (PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
+        } else if (PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
             try {
                 return new RemoteWebDriver(
-                        new URI("http://"+ remoteHost+ ":" +remotePort + "/wd/hub").toURL(), getOptions()
+                        new URI("http://" + remoteHost + ":" + remotePort + "/wd/hub").toURL(), getOptions()
                 );
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 LogsManager.error("Error creating RemoteWebDriver: " + e.getMessage());
                 throw new RuntimeException("Failed to create RemoteWebDriver", e);
             }
 
-        }
-        else {
+        } else {
             LogsManager.error("Invalid execution type: " + PropertyReader.getProperty("executionType"));
             throw new IllegalArgumentException("Invalid execution type: " + PropertyReader.getProperty("executionType"));
         }

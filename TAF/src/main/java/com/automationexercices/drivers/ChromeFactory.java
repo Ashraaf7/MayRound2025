@@ -20,15 +20,14 @@ public class ChromeFactory extends AbstractDriver {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
+         options.addArguments("--disable-gpu");
+         options.addArguments("--disable-extensions");
         options.addArguments("--start-maximized");
-       // options.addArguments("--disable-gpu");
-       // options.addArguments("--disable-extensions");
-        options.addExtensions(extensions);
+        options.setAcceptInsecureCerts(true);
         if (PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") ||
                 PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
-            options.addArguments("--headless");
+            options.addArguments("--headless=new");
         }
-        options.setAcceptInsecureCerts(true);
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         return options;
     }

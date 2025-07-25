@@ -1,6 +1,7 @@
 package com.automationexercices.utils.actions;
 
 import com.automationexercices.utils.WaitManager;
+import com.automationexercices.utils.dataReader.PropertyReader;
 import com.automationexercices.utils.logs.LogsManager;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -41,21 +42,6 @@ public class BrowserActions {
         driver.navigate().refresh();
     }
 
-
-    //close extensions tabs after installation
-    public void closeExtensionsTabs()
-    {
-        String currentWindowHandle = driver.getWindowHandle();
-        waitManager.fluentWait().until(
-                d ->
-                {
-                    return d.getWindowHandles().size() > 2; // 0 1 2 > 0 1 > 0
-                }
-        );
-        driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString()).close();
-        driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString()).close();
-        driver.switchTo().window(currentWindowHandle);
-    }
     // close the current window
     public void closeCurrentWindow() {
         driver.close();

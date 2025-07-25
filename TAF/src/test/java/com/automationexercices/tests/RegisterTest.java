@@ -40,11 +40,6 @@ public class RegisterTest extends BaseTest{
                 .verifyAccountCreated();
     }
 
-    @Test
-    public void invalidSignUpTC() {
-
-    }
-
 
 
 
@@ -52,7 +47,6 @@ public class RegisterTest extends BaseTest{
     @BeforeMethod
     public void setUp() {
         driver = new GUIDriver();
-        driver.browser().closeExtensionsTabs(); // Close any extension tabs that might have opened
         new NavigationBarComponent(driver).navigate();
     }
 

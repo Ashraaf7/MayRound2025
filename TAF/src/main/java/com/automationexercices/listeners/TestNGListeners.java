@@ -30,8 +30,8 @@ public class TestNGListeners implements IExecutionListener, IInvokedMethodListen
     }
 
     public void onExecutionFinish() {
-        AllureReportGenerator.generateReports(false);
         AllureReportGenerator.copyHistory();
+        AllureReportGenerator.generateReports(false);
         AllureReportGenerator.generateReports(true);
         AllureReportGenerator.openReport(AllureReportGenerator.renameReport());
         LogsManager.info("Test Execution Finished");

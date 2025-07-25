@@ -19,9 +19,8 @@ public class EdgeFactory extends AbstractDriver {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
-        // options.addArguments("--disable-gpu"); //due to extension issues
-        // options.addArguments("--disable-extensions"); //due to extension issues
-        options.addExtensions(extensions);
+        options.addArguments("--disable-gpu");
+        options.addArguments("--disable-extensions");
         options.addArguments("--start-maximized");
 
         options.setAcceptInsecureCerts(true);

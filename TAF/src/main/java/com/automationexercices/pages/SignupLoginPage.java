@@ -1,15 +1,18 @@
 package com.automationexercices.pages;
 
 import com.automationexercices.drivers.GUIDriver;
+import com.automationexercices.pages.components.NavigationBarComponent;
 import com.automationexercices.utils.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class SignupLoginPage {
+    public NavigationBarComponent navigationBar;
     private GUIDriver driver;
     private final String signupLoginEndpoint = "/login";
     public SignupLoginPage(GUIDriver driver) {
         this.driver = driver;
+        this.navigationBar = new NavigationBarComponent(driver);
     }
 
     //locators
@@ -56,9 +59,9 @@ public class SignupLoginPage {
         return this;
     }
     @Step("Click signup button")
-    public SignupPage clickSignupButton() {
+    public SignupLoginPage clickSignupButton() {
         driver.element().click(signupButton);
-        return new SignupPage(driver);
+        return new SignupLoginPage(driver);
     }
 
 
@@ -68,14 +71,14 @@ public class SignupLoginPage {
         driver.verification().isElementVisible(signupLabel);
         return this;
     }
-    @Step("Verify login error message {errorMessage}")
+    @Step("Verify login error message {errorExpected}")
     public SignupLoginPage verifyLoginErrorMsg (String errorExpected)
     {
         String errorActual = driver.element().getText(loginError);
         driver.verification().Equals(errorActual,errorExpected, "Login error message is not as expected");
         return this;
     }
-    @Step("Verify register error message {errorMessage}")
+    @Step("Verify register error message {errorExpected}")
     public SignupLoginPage verifyRegisterErrorMsg (String errorExpected) {
         String errorActual = driver.element().getText(registerError);
         driver.verification().Equals(errorActual, errorExpected, "Register error message is not as expected");

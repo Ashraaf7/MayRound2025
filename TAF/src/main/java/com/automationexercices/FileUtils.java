@@ -48,12 +48,21 @@ public class FileUtils {
         }
     }
 
+    //force delete
+    public static void forceDelete(File file) {
+        try {
+            org.apache.commons.io.FileUtils.forceDeleteOnExit(file);
+            LogsManager.info("File deleted: " + file.getAbsolutePath());
+        } catch (IOException e) {
+            LogsManager.error("Failed to delete file: " + file.getAbsolutePath(), e.getMessage());
+        }
+    }
 
     // cleaning Directory
     public static void cleanDirectory(File file)
     {
         try {
-            org.apache.commons.io.FileUtils.deleteQuietly(file);
+            org.apache.commons.io.FileUtils.deleteQuietly(file); //in use > skip
         }
         catch (Exception e) {
             LogsManager.error("Failed to clean directory: " + file.getAbsolutePath(), e.getMessage());

@@ -3,8 +3,10 @@ package com.automationexercices.utils.actions;
 import com.automationexercices.utils.WaitManager;
 import com.automationexercices.utils.logs.LogsManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
@@ -19,12 +21,20 @@ public class ElementActions {
     }
 
     //Clicking
-    public void click(By locator) {
+    public ElementActions click(By locator) {
         waitManager.fluentWait().until(d ->
                 {
                     try {
                         WebElement element = d.findElement(locator);
                         scrollToElementJS(locator);
+                        // Wait until the element is stable (not moving)
+                        Point initialLocation = element.getLocation();
+                        LogsManager.info("initialLocation: " + initialLocation);
+                        Point finalLocation = element.getLocation();
+                        LogsManager.info("finalLocation: " + finalLocation);
+                        if (!initialLocation.equals(finalLocation)) {
+                            return false; // still moving, wait longer
+                        }
                         element.click();
                         LogsManager.info("Clicked on element: " + locator);
                         return true;
@@ -33,10 +43,11 @@ public class ElementActions {
                     }
                 }
         );
+        return this;
     }
 
     //Typing
-    public void type(By locator, String text) {
+    public ElementActions type(By locator, String text) {
         waitManager.fluentWait().until(d ->
                 {
                     try {
@@ -51,6 +62,24 @@ public class ElementActions {
                     }
                 }
         );
+        return this;
+    }
+    //hovering
+    public ElementActions hover(By locator) {
+        waitManager.fluentWait().until(d ->
+                {
+                    try {
+                        WebElement element = d.findElement(locator);
+                        scrollToElementJS(locator);
+                        new Actions(d).moveToElement(element).perform();
+                        LogsManager.info("Hovered over element: " + locator);
+                        return true;
+                    } catch (Exception e) {
+                        return false;
+                    }
+                }
+        );
+        return this;
     }
 
     //Getting text
@@ -71,7 +100,7 @@ public class ElementActions {
     }
 
     //upload file
-    public void uploadFile(By locator,String filePath)
+    public ElementActions uploadFile(By locator,String filePath)
     {
         String fileAbsolute = System.getProperty("user.dir") + File.separator  + filePath ;
         waitManager.fluentWait().until(d ->
@@ -87,6 +116,7 @@ public class ElementActions {
                     }
                 }
         );
+        return this;
     }
 
 
@@ -103,7 +133,7 @@ public class ElementActions {
     }
 
     //select from dropdown
-    public void selectFromDropdown(By locator, String value) {
+    public ElementActions selectFromDropdown(By locator, String value) {
         waitManager.fluentWait().until(d ->
                 {
                     try {
@@ -118,5 +148,7 @@ public class ElementActions {
                     }
                 }
         );
+        return this;
     }
+
 }

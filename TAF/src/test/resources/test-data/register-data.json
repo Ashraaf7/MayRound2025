@@ -16,5 +16,9 @@
   "state": "Automation_State",
   "city": "Automation_City",
   "zipcode": "12345",
-  "mobileNumber": "1234567890"
+  "mobileNumber": "1234567890",
+  "messages" :
+  {
+    "error": "Email Address already exist!"
+  }
 }

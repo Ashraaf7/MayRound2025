@@ -19,15 +19,20 @@ public class EdgeFactory extends AbstractDriver {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-extensions");
         options.addArguments("--start-maximized");
 
         options.setAcceptInsecureCerts(true);
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
-        if (PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") ||
-                PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
-            options.addArguments("--headless");
+        options.addExtensions(haramBlurExtension);
+        switch (PropertyReader.getProperty("executionType"))
+        {
+            case "LocalHeadless" -> options.addArguments("--headless=new");
+            case  "Remote" ->
+            {
+                options.addArguments("--disable-gpu");
+                options.addArguments("--disable-extensions");
+                options.addArguments("--headless=new");
+            }
         }
         return options;
     }

@@ -1,1 +1,1 @@
-[{"uid":"31a332a08c2f44ef","name":"invalidSignUpTC","time":{"start":1753405131292,"stop":1753405132756,"duration":1464},"status":"passed","severity":"normal"}]
+[{"uid":"d069df02edfa4820","name":"addProductToCartWithoutLogin","time":{"start":1753643154289,"stop":1753643161275,"duration":6986},"status":"passed","severity":"critical"}]

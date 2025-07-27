@@ -6,6 +6,7 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
@@ -16,9 +17,18 @@ public class FirefoxFactory extends AbstractDriver {
         FirefoxOptions options = new FirefoxOptions();
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         options.addArguments("--start-maximized");
-        if (PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") ||
-                PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
-            options.addArguments("--headless");
+        FirefoxProfile profile = new FirefoxProfile();
+        profile.addExtension(haramBlurExtension);
+        options.setProfile(profile);
+        switch (PropertyReader.getProperty("executionType"))
+        {
+            case "LocalHeadless" -> options.addArguments("--headless=new");
+            case  "Remote" ->
+            {
+                options.addArguments("--disable-gpu");
+                options.addArguments("--disable-extensions");
+                options.addArguments("--headless=new");
+            }
         }
         return options;
     }

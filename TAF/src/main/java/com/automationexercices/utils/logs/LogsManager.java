@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 import java.net.URI;
 
 public class LogsManager {
-    public static final String LOGS_PATH = AllureConstants.USER_DIR + "test-output/Logs/";
+    public static final String LOGS_PATH = AllureConstants.USER_DIR + "/test-output/Logs/";
 
     private static Logger logger() {
         return LogManager.getLogger(Thread.currentThread().getStackTrace()[3].getClassName());

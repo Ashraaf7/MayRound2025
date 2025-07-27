@@ -83,7 +83,7 @@ public class TestNGListeners implements IExecutionListener, IInvokedMethodListen
         FileUtils.cleanDirectory(AllureConstants.RESULTS_FOLDER.toFile());
         FileUtils.cleanDirectory(new File(ScreenshotsManager.SCREENSHOTS_PATH));
         FileUtils.cleanDirectory(new File(ScreenRecordManager.RECORDINGS_PATH));
-        FileUtils.cleanDirectory(new File(LogsManager.LOGS_PATH));
+        FileUtils.forceDelete(new File(LogsManager.LOGS_PATH +"logs.log"));
     }
 
     private void createTestOutputDirectories() {

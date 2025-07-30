@@ -69,4 +69,11 @@ public class FileUtils {
         }
     }
 
+    //check if the file exists
+    public static boolean isFileExists( String fileName) {
+        String filePath = USER_DIR + "/src/test/resources/downloads/" ;
+        File file = new File(filePath+ fileName);
+        return file.exists();
+    }
+
 }

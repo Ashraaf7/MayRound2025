@@ -1,0 +1,75 @@
+[DEBUG] - [31-07-2025 00:45:25] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [31-07-2025 00:45:25] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[DEBUG] - [31-07-2025 00:45:25] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [31-07-2025 00:45:25] [main] [com.automationexercices.FileUtils] - File deleted: C:\Users\LOQ\Desktop\MayRound2025\TAF\test-output\Logs\logs.log
+[INFO] - [31-07-2025 00:45:25] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [31-07-2025 00:45:25] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - File deleted: C:\Users\LOQ\Desktop\MayRound2025\TAF\test-output\Logs\logs.log
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [31-07-2025 00:45:26] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [31-07-2025 00:45:27] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [31-07-2025 00:45:27] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [31-07-2025 00:45:27] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [31-07-2025 00:45:27] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [31-07-2025 00:45:27] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [31-07-2025 00:45:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\LOQ\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [31-07-2025 00:45:28] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerTest started
+[INFO] - [31-07-2025 00:45:28] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerTest started
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [31-07-2025 00:45:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [31-07-2025 00:45:31] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [31-07-2025 00:45:32] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [31-07-2025 00:45:32] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerTest passed

@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Add a product to the cart without logging in","6986","addProductToCartWithoutLogin","Default Suite","Sun Jul 27 22:05:54 EEST 2025","passed","Sun Jul 27 22:06:01 EEST 2025","com.automationexercices.tests.ui.ProductsTest","TAF","com.automationexercices.tests.ui.ProductsTest","addProductToCartWithoutLogin"
+"","4512","registerTest","Automation Exercise","Thu Jul 31 00:45:28 EEST 2025","passed","Thu Jul 31 00:45:32 EEST 2025","com.automationexercices.tests.api.RegisterTestAPI","TAF","com.automationexercices.tests.api.RegisterTestAPI","registerTest"

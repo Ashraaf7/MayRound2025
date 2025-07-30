@@ -45,7 +45,7 @@ public class ProductsPage {
     }
 
     private By viewProduct(String productName) {
-        return By.xpath("//p[.=' " + productName + " '] //following::div[@class='choose'][1]");
+        return By.xpath("//p[.='" + productName + "'] //following::div[@class='choose'][1]");
     }
 
 

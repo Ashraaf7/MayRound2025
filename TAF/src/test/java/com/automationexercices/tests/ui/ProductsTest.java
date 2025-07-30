@@ -1,6 +1,7 @@
 package com.automationexercices.tests.ui;
 
 import com.automationexercices.drivers.GUIDriver;
+import com.automationexercices.drivers.UITest;
 import com.automationexercices.pages.ProductsPage;
 import com.automationexercices.pages.components.NavigationBarComponent;
 import com.automationexercices.tests.BaseTest;
@@ -17,11 +18,12 @@ import org.testng.annotations.Test;
 @Story("Products Management")
 @Severity(SeverityLevel.CRITICAL)
 @Owner("Ashraf")
+@UITest
 public class ProductsTest extends BaseTest {
 
     @Test
     @Description("Search for a product and validate its details")
-    public void searchForProductWithLogin() {
+    public void searchForProductWithoutLogin() {
         new ProductsPage(driver)
                 .navigate()
                 .searchProduct(testData.getJsonData("searchedProduct.name"))

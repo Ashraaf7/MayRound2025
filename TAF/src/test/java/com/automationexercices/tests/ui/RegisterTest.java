@@ -2,6 +2,7 @@ package com.automationexercices.tests.ui;
 
 import com.automationexercices.apis.UserManagementAPI;
 import com.automationexercices.drivers.GUIDriver;
+import com.automationexercices.drivers.UITest;
 import com.automationexercices.pages.SignupLoginPage;
 import com.automationexercices.pages.SignupPage;
 import com.automationexercices.pages.components.NavigationBarComponent;
@@ -19,6 +20,7 @@ import org.testng.annotations.Test;
 @Story("User Registration")
 @Severity(SeverityLevel.CRITICAL)
 @Owner("Ashraf")
+@UITest
 public class RegisterTest extends BaseTest {
      String timestamp = TimeManager.getSimpleTimestamp();
 

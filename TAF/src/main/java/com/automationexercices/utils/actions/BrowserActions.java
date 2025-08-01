@@ -61,7 +61,11 @@ public class BrowserActions {
                    return d.getWindowHandles().size() > 1; //wait until extension tab is opened
                }
        );
-       driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString()).close();
+       for (String windowHandle : driver.getWindowHandles()) //extension tab is opened
+       {
+           if (!windowHandle.equals(currentWindowHandle))
+               driver.switchTo().window(windowHandle).close(); //close the extension tab
+       }
        driver.switchTo().window(currentWindowHandle); //switch back to the main window
        LogsManager.info("Extension tab closed");
     }

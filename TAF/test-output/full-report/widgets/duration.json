@@ -1,1 +1,1 @@
-[{"uid":"97b0435a0bf4f0bc","name":"registerTest","time":{"start":1753911928202,"stop":1753911932714,"duration":4512},"status":"passed","severity":"normal"}]
+[{"uid":"239858e0a3a2a599","name":"verifyErrorMessageWhenAccountCreatedBefore","time":{"start":1754081678850,"stop":1754081685328,"duration":6478},"status":"passed","severity":"critical"}]

@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4512","registerTest","Automation Exercise","Thu Jul 31 00:45:28 EEST 2025","passed","Thu Jul 31 00:45:32 EEST 2025","com.automationexercices.tests.api.RegisterTestAPI","TAF","com.automationexercices.tests.api.RegisterTestAPI","registerTest"
+"Verify user cannot sign up with invalid data","6478","verifyErrorMessageWhenAccountCreatedBefore","Automation Exercise","Fri Aug 01 23:54:38 EEST 2025","passed","Fri Aug 01 23:54:45 EEST 2025","com.automationexercices.tests.ui.RegisterTest","TAF","com.automationexercices.tests.ui.RegisterTest","verifyErrorMessageWhenAccountCreatedBefore"

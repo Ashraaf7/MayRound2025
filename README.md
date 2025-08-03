@@ -34,112 +34,110 @@ A robust, maintainable, and scalable Test Automation Framework (TAF) built with 
 ---
 
 ### 🧱 Project Structure
-── TAF
-    ├── .gitignore
-    ├── pom.xml
-    └── src
-        ├── main
-            ├── java
-            │   └── com
-            │   │   └── automationexercices
-            │   │       ├── FileUtils.java
-            │   │       ├── apis
-            │   │           ├── Builder.java
-            │   │           └── UserManagementAPI.java
-            │   │       ├── drivers
-            │   │           ├── AbstractDriver.java
-            │   │           ├── Browser.java
-            │   │           ├── ChromeFactory.java
-            │   │           ├── EdgeFactory.java
-            │   │           ├── FirefoxFactory.java
-            │   │           ├── GUIDriver.java
-            │   │           ├── SafariFactory.java
-            │   │           ├── UITest.java
-            │   │           └── WebDriverProvider.java
-            │   │       ├── listeners
-            │   │           └── TestNGListeners.java
-            │   │       ├── media
-            │   │           ├── ScreenRecordManager.java
-            │   │           └── ScreenshotsManager.java
-            │   │       ├── pages
-            │   │           ├── CartPage.java
-            │   │           ├── CheckoutPage.java
-            │   │           ├── ContactUsPage.java
-            │   │           ├── DeleteAccountPage.java
-            │   │           ├── LogoutPage.java
-            │   │           ├── PaymentPage.java
-            │   │           ├── ProductDetailsPage.java
-            │   │           ├── ProductsPage.java
-            │   │           ├── SignupLoginPage.java
-            │   │           ├── SignupPage.java
-            │   │           ├── TestCasesPage.java
-            │   │           └── components
-            │   │           │   └── NavigationBarComponent.java
-            │   │       ├── utils
-            │   │           ├── OSUtils.java
-            │   │           ├── TerminalUtils.java
-            │   │           ├── TimeManager.java
-            │   │           ├── WaitManager.java
-            │   │           ├── actions
-            │   │           │   ├── AlertActions.java
-            │   │           │   ├── BrowserActions.java
-            │   │           │   ├── ElementActions.java
-            │   │           │   └── FrameActions.java
-            │   │           ├── dataReader
-            │   │           │   ├── ExcelReader.java
-            │   │           │   ├── JsonReader.java
-            │   │           │   └── PropertyReader.java
-            │   │           ├── logs
-            │   │           │   └── LogsManager.java
-            │   │           └── report
-            │   │           │   ├── AllureAttachmentManager.java
-            │   │           │   ├── AllureBinaryManager.java
-            │   │           │   ├── AllureConstants.java
-            │   │           │   ├── AllureEnvironmentManager.java
-            │   │           │   └── AllureReportGenerator.java
-            │   │       └── validations
-            │   │           ├── BaseAssertion.java
-            │   │           ├── Validation.java
-            │   │           └── Verification.java
-            └── resources
-            │   ├── META-INF
-            │       └── services
-            │       │   └── org.testng.ITestNGListener
-            │   ├── allure.properties
-            │   ├── db.properties
-            │   ├── environment.properties
-            │   ├── extensions
-            │       └── HaramBlur.crx
-            │   ├── log4j2.properties
-            │   ├── seleniumGrid.properties
-            │   ├── video.properties
-            │   ├── waits.properties
-            │   └── webapp.properties
-        └── test
-            ├── java
-                └── com
-                │   └── automationexercices
-                │       └── tests
-                │           ├── BaseTest.java
-                │           ├── api
-                │               └── RegisterTestAPI.java
-                │           └── ui
-                │               ├── CartTest.java
-                │               ├── CheckoutTest.java
-                │               ├── InvoiceTest.java
-                │               ├── LoginTest.java
-                │               ├── PaymentTest.java
-                │               ├── ProductDetailsTest.java
-                │               ├── ProductsTest.java
-                │               └── RegisterTest.java
-            └── resources
-                └── test-data
-                    ├── cart-data.json
-                    ├── checkout-data.json
-                    ├── login-data.json
-                    ├── product-details-data.json
-                    ├── products-data.json
-                    └── register-data.json
+TAF/
+├── .gitignore
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/automationexercices/
+│   │   │       ├── FileUtils.java
+│   │   │       ├── Builder.java
+│   │   │       ├── UserManagementAPI.java
+│   │   │       ├── apis/
+│   │   │       ├── drivers/
+│   │   │       │   ├── AbstractDriver.java
+│   │   │       │   ├── Browser.java
+│   │   │       │   ├── ChromeFactory.java
+│   │   │       │   ├── EdgeFactory.java
+│   │   │       │   ├── FirefoxFactory.java
+│   │   │       │   ├── GUIDriver.java
+│   │   │       │   ├── SafariFactory.java
+│   │   │       │   ├── UITest.java
+│   │   │       │   └── WebDriverProvider.java
+│   │   │       ├── listeners/
+│   │   │       │   └── TestNGListeners.java
+│   │   │       ├── media/
+│   │   │       │   ├── ScreenRecordManager.java
+│   │   │       │   └── ScreenshotsManager.java
+│   │   │       ├── pages/
+│   │   │       │   ├── CartPage.java
+│   │   │       │   ├── CheckoutPage.java
+│   │   │       │   ├── ContactUsPage.java
+│   │   │       │   ├── DeleteAccountPage.java
+│   │   │       │   ├── LogoutPage.java
+│   │   │       │   ├── PaymentPage.java
+│   │   │       │   ├── ProductDetailsPage.java
+│   │   │       │   ├── ProductsPage.java
+│   │   │       │   ├── SignupLoginPage.java
+│   │   │       │   ├── SignupPage.java
+│   │   │       │   ├── TestCasesPage.java
+│   │   │       │   └── components/
+│   │   │       │       └── NavigationBarComponent.java
+│   │   │       ├── utils/
+│   │   │       │   ├── OSUtils.java
+│   │   │       │   ├── TerminalUtils.java
+│   │   │       │   ├── TimeManager.java
+│   │   │       │   ├── WaitManager.java
+│   │   │       │   ├── actions/
+│   │   │       │   │   ├── AlertActions.java
+│   │   │       │   │   ├── BrowserActions.java
+│   │   │       │   │   ├── ElementActions.java
+│   │   │       │   │   └── FrameActions.java
+│   │   │       │   ├── dataReader/
+│   │   │       │   │   ├── ExcelReader.java
+│   │   │       │   │   ├── JsonReader.java
+│   │   │       │   │   └── PropertyReader.java
+│   │   │       │   ├── logs/
+│   │   │       │   │   └── LogsManager.java
+│   │   │       │   └── report/
+│   │   │       │       ├── AllureAttachmentManager.java
+│   │   │       │       ├── AllureBinaryManager.java
+│   │   │       │       ├── AllureConstants.java
+│   │   │       │       ├── AllureEnvironmentManager.java
+│   │   │       │       └── AllureReportGenerator.java
+│   │   │       └── validations/
+│   │   │           ├── BaseAssertion.java
+│   │   │           ├── Validation.java
+│   │   │           └── Verification.java
+│   ├── resources/
+│   │   ├── META-INF/
+│   │   │   └── services/
+│   │   │       └── org.testng.ITestNGListener
+│   │   ├── allure.properties
+│   │   ├── db.properties
+│   │   ├── environment.properties
+│   │   ├── extensions/
+│   │   │   └── HaramBlur.crx
+│   │   ├── log4j2.properties
+│   │   ├── seleniumGrid.properties
+│   │   ├── video.properties
+│   │   ├── waits.properties
+│   │   └── webapp.properties
+├── test/
+│   ├── java/
+│   │   └── com/automationexercices/tests/
+│   │       ├── BaseTest.java
+│   │       ├── api/
+│   │       │   └── RegisterTestAPI.java
+│   │       └── ui/
+│   │           ├── CartTest.java
+│   │           ├── CheckoutTest.java
+│   │           ├── InvoiceTest.java
+│   │           ├── LoginTest.java
+│   │           ├── PaymentTest.java
+│   │           ├── ProductDetailsTest.java
+│   │           ├── ProductsTest.java
+│   │           └── RegisterTest.java
+│   └── resources/
+│       └── test-data/
+│           ├── cart-data.json
+│           ├── checkout-data.json
+│           ├── login-data.json
+│           ├── product-details-data.json
+│           ├── products-data.json
+│           └── register-data.json
+
 
  ## Run the tests
  ``
